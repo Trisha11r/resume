@@ -1,0 +1,174 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+\usepackage{hyperref}
+% \usepackage[scale=0.75,top=1cm]{geometry}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Trisha Kanji}
+% \address{123 Spruce St, Apt 35 \linebreak Philadelphia PA 19103}
+% \contacts{(631) 438-7642 \linebreak trisha.kanji@stonybrook.edu}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+    
+    \centering Email: trisha.kanji@stonybrook.edu | Phone: +1 (631) 438-7642 | LinkedIn: \underline{\href{https://www.linkedin.com/in/trisha-kanji/}{www.linkedin.com/in/trisha-kanji}}
+    
+    GitHub: \underline{\href{https://github.com/trisha11r}{github.com/trisha11r}}
+    | Website: \underline{\href{https://trisha11r.github.io/}{trisha11r.github.io}}
+
+	% Print the content
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{SUNY Stony Brook}{}{Aug 2019 -- Dec 2020 (Expected)}
+		
+		
+			\begin{itemize}
+				\item Master of Science in Computer and Information Sciences | State University of New York at Stony Brook | \textbf{GPA: 3.67/4.00}
+				
+
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{IIEST, Shibpur}{}{Aug 2013 -- Jun 2017}
+			\begin{itemize}
+				\item B. Eng. in Computer Science \& Tech. | Indian Institute of Engineering Science \& Technology | \textbf{GPA: 8.12/10} (First Class with Honours)
+				
+
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Code mainly in \textbf{Python \& Java}, Prior experience in \textbf{D3.js, HTML/CSS/Javascript \& PL/SQL}, Familiar with \textbf{XPath/XQuery, C/C++}
+				\item \textbf{Machine Learning \& Data Analysis}: TensorFlow, Pandas, Sklearn, Seaborn, NumPy/SciPy, NLTK, NetworkX, OpenCV, MATLAB
+				\item \textbf{Database Tools}: SQL(MySQL, DB2, Oracle), Toad SQL, DB2 Spatial Extender, QGIS, JDBC, Oracle 10g Forms and Reports Builder 
+				\item  \textbf {Other Tools}: Jupyter, Google Colab, Flask, Bootstrap, Heroku, LaTeX, Eclipse, HDP Sandbox, HDFS, draw.io, Oxygen XML Editor
+				
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Work Experience}
+		\begin{cvsubsection}{Accenture Solutions}{Associate Software Engineer}{July 2017 - Apr 2019}
+			\textit{Application Development Associate (Oracle Apps) | PL/SQL, Oracle 10g Database, Oracle E-Business Suite (EBS)}
+			\begin{itemize}
+				\item Implemented client-specific customization in PL/SQL Packages \& fixed bugs in existing code to resolve issues under Oracle EBS || Hands on experience with Oracle10g Forms \& Reports Builder || Created \& updated technical ERP Module Design \& Build (MD) documents.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Mozilla's Fix-The-Internet Open Lab}{Developer, Mozilla  Builders Spring Program}{Apr 2020 - Jun 2020}
+			\textit{Internship | Python, Web Development using Flask \& Heroku}
+			\begin{itemize}
+				\item Developed an online platform for relief coordination by matching donation related resources like food, clothing etc. using relevant tweets. The website lists donation/request tweets location wise, based on search. Website: \underline{\href{https://help-for-all.herokuapp.com/}{https://help-for-all.herokuapp.com/}}
+				\item Implemented Naive Bayes Classifier for classification of tweets (Donation/Non-Donation, Donor/Requestor \& Resource Type classification) and achieved an accuracy of approx. 80\%, after parsing them using standard NLP techniques. \underline{\href{https://github.com/Trisha11r/MozillaOpenLab}{Project  Link}}
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{IIT, Kharagpur}{Research Intern}{May 2016 - July 2016}	
+		    \textit{Academic Internship under Dr. S. K. Ghosh, Dept. of Computer Science and Engineering | Python, QGIS Python API}
+			\begin{itemize}
+				\item Developed algorithm to find optimum bus route in a disrupted road network, using roads \& bus routes of Kolkata city(India). \underline{\href{https://github.com/Trisha11r/road_network_maxcover}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+		
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience (Projects)}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Causal Link Detective Game} (Ongoing). Currenty developing an online interactive interface to help users refine causal models by adding data found on the web, to overcome the problem of incomplete data with limited scope | Data Visualization, Python3, D3.js |  \underline{\href{https://github.com/Trisha11r/Causal_Link_Detective}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+				
+			\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Detect Heavy Drinking Episodes} (Feb 2020). Performed binary classification on time series accelerometer data obtained from mobile devices of individuals to predict if it corresponds to an intoxicated person, using TAC (Transdermal Alcohol Concentration) levels and achieved a test accuracy of 77.5\% using a random forest classifier | Machine Learning, Python3 |  \underline{\href{https://github.com/Trisha11r/Detect_Heavy_Drinking_Episodes}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+				
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Generating entity descriptors (Post-Modifiers) based on context} (Nov 2019).  Implemented Post-Modifier (PoMo) generation using BiLSTM model with attention, which generates a post-modifier phrase describing the target entity (a noun), that contextually fits in the input sentence | 
+				Natural Language Processing, Python3 | \underline{\href{https://github.com/Trisha11r/Improvement-on-Knowledge-backed-Generation-Model-Using-Post-Modifier-Dataset}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+				
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Qualitative and Quantitative Analysis of Dimensionality Reduction Methods}  (Oct 2019) .  Analysed and compared three dimensionality reduction algorithms (PCA, t-SNE and UMAP) using qualitative and quantitative metrics (eg. varying data size, time complexity, normalized mutual score, stability of sub-sample embeddings) to decide the best algorithm (here UMAP) | Data Science, Python3 |  \underline{\href{https://github.com/Trisha11r/dim_reduction_study}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+				
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				
+				\item \textbf{Decode User Input Gesture on a Virtual Keyboard} (Sept 2019). Given a 10000 words dictionary, implemented the SHARK2(ShortHand Aided Rapid Keyboarding) algorithm to output the best decoded word from gesture | Human Computer Interaction, Python3 |  \underline{\href{https://github.com/Trisha11r/Decode_Gesture_SHARK2_algo}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+				
+		\begin{cvsubsection}{}{}{}
+		    \begin{itemize}
+				
+				\item \textbf{Design and implementation of a Document Flow Management System} (Aug. 2016 - May 2017). Designed an open source web-based system aiming at privilege-based creation, access and management of digital documents facilitating the Business Process of an organization | Web Development \& S/W Engg. Fundamentals, HTML/CSS/Javascript, PHP, SQL |  \underline{\href{https://github.com/Trisha11r/Document-Flow-Management-System}{Project Link}}
+			\end{itemize}
+		\end{cvsubsection}
+		
+	\end{cvsection}
+	
+	\begin{cvsection}{Coursework}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Algorithms, Data Science, Data Visualization, ML, NLP, HCI, Theory of Database Systems, AI, Data Mining, OS, Computer Networks
+				
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Activities}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+	
+			    \item Completed \textbf{JPMorgan Chase Software Engineering Virtual Internship} (Summer 2020)  \underline{\href{https://github.com/Trisha11r/JP_Morgan_Chase_Virtual_Internship}{Project Link}}
+				\item \textbf{1st in vision guided autonomous robotics event} based on character recognition using image processing and equation optimization at the annual tech- fest of IIT,Kharagpur (S.H.E.L.D.O.N. Kshitij 2016).  \underline{\href{https://github.com/Trisha11r/sheldon}{Project Link}}
+
+
+				\item \textbf{Computer Vision Sub-Head} (2015-16) of Robodarshan, the robotics society of IIEST, Shibpur.
+				
+				% \item \textbf{} Among the top 99.9 percentile in Joint Entrance Examination (JEE Mains) and top 99.9 percentile in West Bengal Joint Entrance Examination (WBJEE).
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	
+	
+\end{document}
+
+%include linkedin and website only. Github only in projects.
